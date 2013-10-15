@@ -1,6 +1,13 @@
 * {
     box-sizing: border-box;
 }
+body {
+    font-size: 16px;
+    font-family: times, serif;
+}
+p {
+    margin-bottom: 16px;
+}
 h1 {
     font-size: 36px;
     color: teal;
@@ -19,4 +26,45 @@ img {
     padding: 3px;
     width: 45%;
 }
-    
+
+header {
+    background-color: teal;
+    color: #f4e6c3; 
+    height: 40px;
+}
+header h1 { 
+    float:left;
+    font-family: helvetica, sans-serif;
+    font-size:22px;
+    font-weight:500;
+header nav {
+        float:left;
+        margin-top:16px;
+}
+header a {
+    color: #cccccc;
+    text-decoration:none;
+    margin-right: 70px;
+}
+header a:hover {
+    color: #ffffff;
+}
+article {
+    clear:both;
+    padding: 0 10px 0 10px;    
+}
+article h1  {
+        font-size: 36px;
+        line-height: 44px;
+        margin-top: 5px;
+    }
+article h2 {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+footer {
+        padding: 0 10px 0 10px;
+        font-size: 10px;
+    }
+        
