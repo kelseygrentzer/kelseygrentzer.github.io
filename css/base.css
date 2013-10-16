@@ -30,21 +30,22 @@ img {
 header {
     background-color: teal;
     color: #f4e6c3; 
-    height: 40px;
+    height: 90px;
+    
 }
 header h1 { 
     float:left;
-    font-family: helvetica, sans-serif;
-    font-size:22px;
+    font-family: brush script mt, helvetica, san-serif;
+    font-size:28px;
     font-weight:500;
 header nav {
         float:left;
-        margin-top:16px;
+        margin-top:25px;
 }
 header a {
     color: #cccccc;
     text-decoration:none;
-    margin-right: 70px;
+    margin-right:20px;
 }
 header a:hover {
     color: #ffffff;
