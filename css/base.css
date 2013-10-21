@@ -5,6 +5,7 @@ body {
     font-size: 16px;
     font-family: times, serif;
     background-color:#F8F2DA;
+    color:#000;
 }
 p {
     margin-bottom: 16px;
@@ -25,9 +26,10 @@ p {
 img {
     border: 2px solid #000;
     padding: 3px;
-    margin-right:15%;
-    margin-left:3%;
+    margin-right:30%;
+    margin-left:10%;
     float:right;
+    
 }
 
 header {
@@ -41,17 +43,19 @@ header h1 {
     font-family: brush script mt, helvetica, san-serif;
     font-size:28px;
     font-weight:500;
+}
 header nav {
         float:left;
         margin-top:25px;
 }
 header a {
-    color: #cccccc;
+    color: #DB9370;
     text-decoration:none;
     margin-right:20px;
+    margin-left:5px;
 }
 header a:hover {
-    color: #ffffff;
+    color: #6E3D6B;
 }
 article {
     clear:both;
