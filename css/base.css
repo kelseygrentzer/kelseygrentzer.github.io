@@ -4,7 +4,7 @@
 body {
     font-size: 16px;
     font-family: times, serif;
-    background-color:#FCF8DC;
+    background-color:#F8F2DA;
 }
 p {
     margin-bottom: 16px;
@@ -23,9 +23,11 @@ p {
     line-height: 24px;
 }
 img {
-    border: 2px solid black;
+    border: 2px solid #000;
     padding: 3px;
-    width: 45%;
+    margin-right:15%;
+    margin-left:3%;
+    float:right;
 }
 
 header {
@@ -53,7 +55,7 @@ header a:hover {
 }
 article {
     clear:both;
-    padding: 0 10px 0 10px;    
+    padding: 0 10px 0 10px;
 }
 article h1  {
         font-size: 36px;
