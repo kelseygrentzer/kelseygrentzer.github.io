@@ -7,6 +7,7 @@ body {
     background-color:#F8F2DA;
     color:#000;
 }
+    
 p {
     margin-bottom: 16px;
 }
@@ -84,3 +85,9 @@ footer {
         font-size: 10px;
     }
         
+@media screen and (max-width:600px) {
+    
+    nav {
+        
+    }
+}
