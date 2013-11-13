@@ -86,8 +86,27 @@ footer {
     }
         
 @media screen and (max-width:600px) {
-    
+body {
+    padding: 5%;
+    }
+    h1, h2 {
+        text-align: center;
+    }
     nav {
-        
+        clear: left;
+        width: 100%;      
+    }
+    nav ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    nav li {
+        display: inline;
+        margin-right:10px;
+        text-align: center;
+    }
+#content {
+        margin-left:0;
+        width: 100%;
     }
 }
