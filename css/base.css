@@ -149,7 +149,7 @@ footer {
 #imag2 img {
 	width: 500px;
 	
-	float: left;	
+	float: center;	
 	max-width:100%;
 }
 
@@ -243,7 +243,9 @@ position=relative;
 	}	
      
 @media screen and (max-width:600px) {
-body {
+
+    
+    body {
     padding: 5%;
     }
     h1, h2 {
