@@ -62,9 +62,7 @@ header a {
     margin-right:20px;
     margin-left:0px;
 }
-header a:hover {
-    color: #6E3D6B;
-}
+
 article {
     clear:both;
     padding: 0 10px 0 10px;
@@ -113,7 +111,6 @@ footer {
 	
 #image img {
 	width: 250px;
-	
 	float: left;	
 	max-width:100%;
 }
