@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+.main {
+	width: 1000px;
+}
 body {
     font-size: 16px;
     font-family: times, serif;
@@ -23,10 +26,11 @@ p {
     font-family: helvetica, arial, sans-serif;
     font-size: 16px;
     line-height: 24px;
+    margin: 10px; 
 }
 img {
     border: 2px solid #000;
-    padding: 3px;
+    padding-right: 10px;
     margin-right:30%;
     margin-left:10%;
     float:right;
@@ -34,10 +38,13 @@ img {
 }
 
 header {
+    width: 1000px;
+    color: #f4e6c3;
     background-color: #286C6E;
     color: #f4e6c3; 
     height: 90px;
-    
+    background-image: url(../img/menubg.jpg);
+	background-repeat:repeat-x;   
 }
 header h1 { 
     float:left;
@@ -50,10 +57,10 @@ header nav {
         margin-top:25px;
 }
 header a {
-    color: #DB9370;
+    color: #f4e6c3;
     text-decoration:none;
     margin-right:20px;
-    margin-left:5px;
+    margin-left:0px;
 }
 header a:hover {
     color: #6E3D6B;
@@ -84,7 +91,160 @@ footer {
         padding: 0 10px 0 10px;
         font-size: 10px;
     }
-        
+#image1 {
+	width: 250px;
+	float: left;
+	margin-top:50px;
+	max-width:100%;
+	}
+	
+#image1 img {
+	width: 250px;
+	float: left;	
+	max-width:100%;
+}
+#image {
+	width: 250px;
+	
+	float: left;
+	margin-bottom:50px;
+	max-width:100%;
+	}
+	
+#image img {
+	width: 250px;
+	
+	float: left;	
+	max-width:100%;
+}
+
+
+
+.bottom {
+	margin-top: 30px;
+	background-image: url(../img/footer1.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-align: center;
+	width: 1000px;
+	height: 70px;
+	float: left;
+}
+#imag {
+	
+	float: left;
+	margin-top:50px;
+	max-width:100%;
+	}
+	
+#imag img {
+	
+	float: left;	
+	max-width:100%;
+}
+#imag2 {
+		
+	float: left;
+	margin-bottom:50px;
+	max-width:100%;
+	}
+	
+#imag2 img {
+	width: 500px;
+	
+	float: left;	
+	max-width:100%;
+}
+
+
+.bottom ul li {
+	display: inline;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #000;
+}
+.bottom ul li a {
+	list-style-type: none;
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.bottom ul li a:hover {
+	text-decoration: underline;
+}
+.bottom p {
+	font-size: 12px;
+	color:#000;
+	
+}
+
+
+.contents {
+	
+	float:right;
+	margin-top:50px;
+	background-color:transparent;
+	border:solid #666;
+	padding:0px;
+	border-width:1px
+}
+
+header ul {
+	width: 1000px;
+	height: 90px;
+	list-style-type: none;
+	
+}
+header ul li {
+	height: 90px;
+	float: left;
+	padding-right: 12px;
+	padding-left: 5px;
+	margin-top:0px;
+	
+
+	
+}
+header ul li h1 {
+  	float:left;
+    font-family: brush script mt, helvetica, san-serif;
+    font-size:36px;
+    font-weight:500;
+	background-color:transparent;
+	margin-top:0px;
+	padding-left:0px;
+}
+header ul li a {
+	line-height: 37px;
+	text-decoration: none;
+	display: block;
+	height: 37px;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 20px;
+}
+
+header ul li a:hover {
+	background-image: url(../img/menu-hov.jpg);
+	background-repeat: repeat;
+	background-position: left top;
+}
+
+#test { 
+position=relative;
+
+}
+	
+#pdf {
+	width:700px;
+	height:700px;
+	margin-left: auto ;
+  	margin-right: auto ;
+	}	
+     
 @media screen and (max-width:600px) {
 body {
     padding: 5%;
